@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costureza</title>
+    <link rel="stylesheet" href="./ressources/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">Costureza <i class="fas fa-shopping-cart"></i></a>
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#products">produtos</a>
+                <a href="#featured">destaque</a>
+                <a href="#review">comentários</a>
+                <a href="#contact">contato</a>
+                <a href="#blogs">blogs</a>
+            </nav><!-- navbar -->
+            <div class="icons">
+                <div  id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>     
+            </div><!-- icons -->
+            <form action="" class="search-form">
+                <input type="search" name="" id="search-box" placeholder="busque aqui o que você deseja..">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide" style="background: url(./ressources/img/bgw.png);">
+                        <div class="content">
+                            <span>50% off</span>
+                            <h3>Mulher</h3>
+                            <a href="" class="btn">compre agora</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide" style="background: url(./ressources/img/bgm.png);">
+                        <div class="content">
+                            <span>50% off</span>
+                            <h3>Homem</h3>
+                            <a href="" class="btn">compre agora</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide" style="background: url(./ressources/img/bgk.png);">
+                        <div class="content">
+                            <span>50% off</span>
+                            <h3>Crianças</h3>
+                            <a href="" class="btn">compre agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>           
+        </section>
+        <section class="banner-container">
+            <div class="banner">
+                <img src="./ressources/img/banner1.png" alt="">
+                <div class="content">
+                    <span>ofertas especiais</span>
+                    <h3>50% off</h3>
+                    <a href="#" class="btn">compre agora</a>
+                </div>
+            </div>           
+            <div class="banner">
+                <img src="./ressources/img/banner2.png" alt="">
+                <div class="content">
+                    <span>ofertas especiais</span>
+                    <h3>50% off</h3>
+                    <a href="#" class="btn">compre agora</a>
+                </div>
+            </div>
+        </section>
+        <section class="products" id="products">
+            <h1 class="heading">estampas <span>exclusivas</span></h1>
+            <div class="filter-buttons">
+                <div class="buttons active" data-filter="all">todos</div>
+                <div class="buttons" data-filter="arrivals">novas estampas</div>
+                <div class="buttons" data-filter="featured">destaque</div>
+                <div class="buttons" data-filter="special">ofertas especiais</div>
+                <div class="buttons" data-filter="seller">os mais vendidos</div>
+            </div>
+            <div class="box-container">
+                <div class="box" data-item="seller">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>the real beatles</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="seller">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>nirvana</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="featured">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>teacher arnold</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="seller">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>the real eminem</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="seller">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>the real slipknot</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="special">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>xuxa</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="special">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>riri</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="special">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>monk and the rapper</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="arrivals">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>ata</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="featured">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>gagaYonce</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="arrivals">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product11.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>in the box</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box" data-item="featured">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-search"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                    <div class="image">
+                        <img src="./ressources/img/product12.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>i'ts britney bitch</h3>
+                        <div class="price">
+                            <div class="amount">R$20</div>
+                            <div class="cut">R$25</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="deal">
+            <div class="image">
+                <img src="./ressources/img/verao.png" alt="">
+            </div>
+            <div class="content">
+                <span>tendências da nova temporada</span>
+                <h3>Coleção de verão</h3>
+                <p>compre com até 50% de desconto</p>
+                <a href="#" class="btn">compre agora</a>
+            </div>
+        </section>
+        <section class="featured" id="featured">
+            <h1 class="heading">produtos em <span>destaque</span></h1>
+            <div class="swiper featured-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="./ressources/img/product1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the real beatles</h3>
+                            <div class="price">
+                                <div class="amount">R$20</div>
+                                <div class="cut">R$25</div>
+                                <div class="offer">20% off</div>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(50)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="./ressources/img/product2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>nirvana</h3>
+                            <div class="price">
+                                <div class="amount">R$20</div>
+                                <div class="cut">R$25</div>
+                                <div class="offer">20% off</div>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(50)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="./ressources/img/product3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>theacher arnold</h3>
+                            <div class="price">
+                                <div class="amount">R$20</div>
+                                <div class="cut">R$25</div>
+                                <div class="offer">20% off</div>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(50)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="./ressources/img/product4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>eminem</h3>
+                            <div class="price">
+                                <div class="amount">R$20</div>
+                                <div class="cut">R$25</div>
+                                <div class="offer">20% off</div>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(50)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="./ressources/img/product5.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the real slipknot</h3>
+                            <div class="price">
+                                <div class="amount">R$20</div>
+                                <div class="cut">R$25</div>
+                                <div class="offer">20% off</div>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(50)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="./ressources/img/product6.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>xuxa</h3>
+                            <div class="price">
+                                <div class="amount">R$20</div>
+                                <div class="cut">R$25</div>
+                                <div class="offer">20% off</div>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(50)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>            
+        </section>
+        <section class="review">
+            <h1 class="heading"><span>comentários</span> dos clientes</h1>
+            <div class="swiper review-slide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nesciunt voluptates maxime porro possimus dicta voluptatem labore architecto animi totam vitae, assumenda amet incidunt praesentium ipsa! Modi ducimus reprehenderit repellat?</p>
+                        <div class="user">
+                            <img src="./ressources/img/perfil1.png" alt="">
+                            <div class="info">
+                                <h3>lukkinn</h3>
+                                <span>cliente feliz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nesciunt voluptates maxime porro possimus dicta voluptatem labore architecto animi totam vitae, assumenda amet incidunt praesentium ipsa! Modi ducimus reprehenderit repellat?</p>
+                        <div class="user">
+                            <img src="./ressources/img/perfil2.png" alt="">
+                            <div class="info">
+                                <h3>anna</h3>
+                                <span>cliente feliz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nesciunt voluptates maxime porro possimus dicta voluptatem labore architecto animi totam vitae, assumenda amet incidunt praesentium ipsa! Modi ducimus reprehenderit repellat?</p>
+                        <div class="user">
+                            <img src="./ressources/img/perfil3.png" alt="">
+                            <div class="info">
+                                <h3>Claudiiooh</h3>
+                                <span>cliente feliz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nesciunt voluptates maxime porro possimus dicta voluptatem labore architecto animi totam vitae, assumenda amet incidunt praesentium ipsa! Modi ducimus reprehenderit repellat?</p>
+                        <div class="user">
+                            <img src="./ressources/img/perfil4.png" alt="">
+                            <div class="info">
+                                <h3>tara vervelha</h3>
+                                <span>cliente feliz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nesciunt voluptates maxime porro possimus dicta voluptatem labore architecto animi totam vitae, assumenda amet incidunt praesentium ipsa! Modi ducimus reprehenderit repellat?</p>
+                        <div class="user">
+                            <img src="./ressources/img/perfil5.png" alt="">
+                            <div class="info">
+                                <h3>rosinha</h3>
+                                <span>cliente feliz</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nesciunt voluptates maxime porro possimus dicta voluptatem labore architecto animi totam vitae, assumenda amet incidunt praesentium ipsa! Modi ducimus reprehenderit repellat?</p>
+                        <div class="user">
+                            <img src="./ressources/img/perfil6.png" alt="">
+                            <div class="info">
+                                <h3>iemanjá</h3>
+                                <span>cliente feliz</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>Fale</span> conosco</h1>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>endereço</h3>
+                    <p>Maceió, Alagoas, Brasil - 5202154</p>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-envelope"></i>
+                    <h3>email</h3>
+                    <p>costurezati@gmail.com</p>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telefone</h3>
+                    <p>(82) 9999-9999</p>
+                </div>
+            </div>
+            <div class="row">
+                <form action="">
+                    <h3>entre em contato</h3>
+                    <div class="inputBox">
+                        <input type="text" placeholder="seu nome">
+                        <input type="email" placeholder="seu email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="tel" placeholder="seu número">
+                        <input type="text" placeholder="seu assunto">
+                    </div>
+                    <textarea placeholder="sua menssagem" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </form>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125888.32371203626!2d-35.76907969272556!3d-9.594395744307585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70146fcd6688849%3A0xee2c725b43e07653!2zTWFjZWnDsywgQUw!5e0!3m2!1spt-BR!2sbr!4v1744462584067!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </section>
+        <section class="blogs" id="blogs">
+            <h1 class="heading">nosso <span>blog</span></h1>
+            <div class="swiper blogs-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="./ressources/img/blog.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>as melhores estampas</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, ducimus doloremque. Repellendus, ad expedita ut eum, sit cumque explicabo perferendis dolore quo sed minima magni? Dolore a veritatis nam explicabo.</p>
+                            <a href="#" class="btn">leia mais</a>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-calendar"></i>12 de abril 2025</a>
+                                <a href="#"><i class="fas fa-user"></i>Costureza</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="./ressources/img/blog2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>as melhores estampas</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, ducimus doloremque. Repellendus, ad expedita ut eum, sit cumque explicabo perferendis dolore quo sed minima magni? Dolore a veritatis nam explicabo.</p>
+                            <a href="#" class="btn">leia mais</a>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-calendar"></i>12 de abril 2025</a>
+                                <a href="#"><i class="fas fa-user"></i>Costureza</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="./ressources/img/blog3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>as melhores estampas</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, ducimus doloremque. Repellendus, ad expedita ut eum, sit cumque explicabo perferendis dolore quo sed minima magni? Dolore a veritatis nam explicabo.</p>
+                            <a href="#" class="btn">leia mais</a>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-calendar"></i>12 de abril 2025</a>
+                                <a href="#"><i class="fas fa-user"></i>Costureza</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="./ressources/img/blog4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>as melhores estampas</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, ducimus doloremque. Repellendus, ad expedita ut eum, sit cumque explicabo perferendis dolore quo sed minima magni? Dolore a veritatis nam explicabo.</p>
+                            <a href="#" class="btn">leia mais</a>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-calendar"></i>12 de abril 2025</a>
+                                <a href="#"><i class="fas fa-user"></i>Costureza</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="image">
+                            <img src="./ressources/img/blog5.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>as melhores estampas</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, ducimus doloremque. Repellendus, ad expedita ut eum, sit cumque explicabo perferendis dolore quo sed minima magni? Dolore a veritatis nam explicabo.</p>
+                            <a href="#" class="btn">leia mais</a>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-calendar"></i>12 de abril 2025</a>
+                                <a href="#"><i class="fas fa-user"></i>Costureza</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">        
+            <div class="box-container">
+                <div class="box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, expedita aut voluptate aliquid in nihil, debitis suscipit possimus corporis repellendus tempora sed asperiores facere nobis officia magni iure dolores aliquam!</p>               
+                </div>
+                <div class="box">
+                    <h3>categoria</h3>
+                    <a href="#"><i class="fas fa-arrow-right"></i>homem</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>mulher</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>kids</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>os mais vendidos</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>novidades</a>
+                    
+                </div>
+                <div class="box">
+                    <h3>links extras</h3>
+                    <a href="#"><i class="fas fa-arrow-right"></i>meu pedido</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>minha conta</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>minha lista</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>venda agora</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>novas ofertas</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>blogs</a>
+                </div>
+                <div class="box">
+                    <h3>links rápidos</h3>
+                    <a href="#"><i class="fas fa-arrow-right"></i>home</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>produtos</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>destaque</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>comentários</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>contato</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>blogs</a>
+                </div>
+                
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-bluesky"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+            <div class="credit">reproduzido por <a href="https://github.com/RosaCL" target="_blank"><img
+                src="./ressources/img/costureza.png" alt=""></a>
+                criado por <a href="https://www.youtube.com/watch?v=GFmSgTYX5fg&t=3111s"
+            target="_blank"><span>Mr Web Designer</span></a> | all rights reserverd</div>       
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./ressources/js/index.js"></script>
+</body>
+</html>
